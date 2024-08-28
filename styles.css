@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-box {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    padding: 40px;
+    text-align: center;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: 'Billabong', sans-serif;
+    font-size: 48px;
+    color: #262626;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    background: #fafafa;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0095f6;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0077cc;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+    color: #8e8e8e;
+}
+
+.divider hr {
+    flex: 1;
+    border: none;
+    border-top: 1px solid #dbdbdb;
+}
+
+.divider span {
+    padding: 0 10px;
+}
+
+.login-with-facebook {
+    background-color: #385185;
+}
+
+.signup-box {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+a {
+    color: #0095f6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
